@@ -1,0 +1,4 @@
+baseURL = 'https://atablefortwo.github.io/'
+languageCode = 'pt-br'
+title = 'A Table For Two Blog'
+theme = 'gokarna'
