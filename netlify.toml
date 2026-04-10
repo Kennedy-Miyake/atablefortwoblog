@@ -9,5 +9,6 @@ TZ = "Europe/Oslo"
 publish = "public"
 command = """\
   git config core.quotepath false && \
+  git submodule update --init --recursive && \
   hugo build --gc --minify --baseURL "${URL}"
   """
